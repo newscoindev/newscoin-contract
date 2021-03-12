@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20Detailed.sol";
  * @title NewsCoin contract 
  */
 contract NewsCoin is ERC20Capped, ERC20Detailed {
-    uint noOfTokens = 1_000_000_000; // 1.0B
+    uint noOfTokens = 8_000_000_000; // 8.0B
 
     // Address of news coin vault
     // The vault will have all the news coin issued.
