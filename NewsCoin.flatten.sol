@@ -715,7 +715,7 @@ pragma solidity >=0.5.0;
  * @title NewsCoin contract 
  */
 contract NewsCoin is ERC20Capped, ERC20Detailed {
-    uint noOfTokens = 8_000_000_000; // 8.0B
+    uint noOfTokens = 9_000_000_000; // 9.0B
 
     // Address of news coin vault
     // The vault will have all the news coin issued.
